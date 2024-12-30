@@ -7,10 +7,10 @@ Scribble is an AI note application where user can ask the AI chat to search for 
 * [Setup](#setup)
 * [Contributing](#contributing)
 
-## General info 🔶
+## 🔸 General info 🔸
 Scribble is an AI-powered note-taking application designed to simplify your workflow. With Scribble, users can effortlessly search for notes using an AI chat assistant, eliminating the need to sift through files manually. Stay organized and access your notes instantly with intelligent search capabilities.
 
-## Technologies 🔶
+## 🔸 Technologies 🔸
 Project is created with:
 * nextjs 15
 * Shadcn UI
@@ -21,7 +21,7 @@ Project is created with:
 * Prisma
 * Zod
 
-## Setup 🔶
+## 🔸Setup 🔸
 To run this project, install it locally using npm:
 
 - To install all dependencies
@@ -50,7 +50,7 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Contributing 🔶
+## 🔸Contributing 🔸
 Fork it (https://github.com/surya-situ/scribble/fork)
 Create your feature branch (git checkout -b feature/fooBar)
 Commit your changes (git commit -am 'Add some fooBar')
