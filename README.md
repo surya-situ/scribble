@@ -27,6 +27,22 @@ To run this project, install it locally using npm:
 ```bash
 npm install
 ```
+- Make sure to rename { example.env } file to { .env } and  change environment variables.
+```bash
+DATABASE_URL="YOUR_MONGODB_DATABASE_URI"
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="YOUR_CLERK_PUBLISHABLE_KEY"
+CLERK_SECRET_KEY="YOUR_CLERK_SECRET_KEY"
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/notes
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/notes
+
+OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
+
+PINECONE_API_KEY="YOUR_PINECONE_API_KEY"
+```
+
 - To run the project
 ```bash
 npm run dev
